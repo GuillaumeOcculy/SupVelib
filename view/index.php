@@ -11,28 +11,28 @@
 		<link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
 		<link rel="stylesheet" type="text/css" href="../css/miniproject.css" />
 		
-		<title>SupLink</title>
+		<title>SupVelib</title>
 	</head>
 
 
 	<body>
 		<div class="navbar navbar-static-top">
           <div class="navbar-inner">
-            <a class="brand" href="register.php">SupLink</a>
+            <a class="brand" href="register.php">SupVelib</a>
             <ul class="nav pull-right">             
-              <li><a href="login.php">Login</a></li>
+              <li><a href="login.php">Connexion</a></li>
               <li class="divider-vertical"></li>            
-              <li><a href="register.php">Register</a></li>
+              <li><a href="register.php">Inscription</a></li>
               <li class="divider-vertical"></li>
-              <li><a href="about.php">About</a></li>
+              <li><a href="about.php">A propos</a></li>
             </ul>
           </div>
     </div>
 	<div class="container">
         <div class="jumbotron">
-            <h1 style="font-size: 100px;line-height: 1;">SupLink</h1>
-            <p class="lead" style="font-size: 24px; line-height: 1.25;">Another URL shortener</p>
-            <a class="btn btn-large btn-success" href="register.php">Sign up today</a>
+            <h1 style="font-size: 100px;line-height: 1;">SupVelib</h1>
+            <p class="lead" style="font-size: 24px; line-height: 1.25;">Trouver un Velib' en un click</p>
+            <a class="btn btn-large btn-success" href="register.php">Inscription </a>
         </div>
       <hr>
 		</div>

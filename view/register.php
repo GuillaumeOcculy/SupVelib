@@ -10,22 +10,21 @@ if(isset($_SESSION['user'])){
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="../css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="../css/miniproject.css" />
-    <title> Sign up</title>
+
+    <title>SupVelib</title>
 </head>
+
+
 <body>
-
-
-
-
 <div class="navbar navbar-static-top">
     <div class="navbar-inner">
-        <a class="brand" href="register.php">SupLink</a>
+        <a class="brand" href="register.php">SupVelib</a>
         <ul class="nav pull-right">
-            <li><a href="login.php"  >Login</a></li>
+            <li><a href="login.php">Connexion</a></li>
             <li class="divider-vertical"></li>
-            <li class="active"><a href="register.php">Register</a></li>
+            <li><a href="register.php">Inscription</a></li>
             <li class="divider-vertical"></li>
-            <li><a href="about.php">About</a></li>
+            <li><a href="about.php">A propos</a></li>
         </ul>
     </div>
 </div>
@@ -42,9 +41,9 @@ if(isset($_SESSION['user'])){
 
        	<br /><br />
         
-        <input type="password"  class="password" name="password" placeholder="Password" required /> <br /><br />
+        <input type="password"  class="password" name="password" placeholder="Mot de passe" required /> <br /><br />
         <input type="password"  class="password" name="confirm" placeholder="Confirmation" required/> <br /><br />
-        <input type="submit" class="btn btn-large btn-success" name="inscription" value="Sign up" />
+        <input type="submit" class="btn btn-large btn-success" name="inscription" value="S'enregistrer" />
         <img  id="loaderform" style="display: none" src="../img/ajax-loader.gif" alt="Loader">
     </form>
 </div>

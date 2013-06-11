@@ -14,7 +14,6 @@ session_start();
         header("Location:/suplink/view/");
     }
    $urlManager = new PDOUrlManager();
-   $urls = $urlManager->findUrlsById($user->getId());
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -30,7 +29,7 @@ session_start();
 <body>
 <div class="navbar navbar-static-top">
     <div class="navbar-inner">
-        <a class="brand" href="dashboard.php"> SupLink</a>
+        <a class="brand" href="dashboard.php"> SupVelib</a>
         <ul class="nav pull-left">
             <li class="divider-vertical"></li>
             <li><a href="dashboard.php"> <i class="icon-home icon-white"> </i>  <?php echo $user->getEmail(); ?></a></li>
@@ -38,9 +37,9 @@ session_start();
        
         <ul class="nav pull-right">
             
-            <li><a href="logout.php">Logout</a></li>
+            <li><a href="logout.php">Deconnexion</a></li>
             <li class="divider-vertical"></li>
-            <li><a href="about.php">About</a></li>
+            <li><a href="about.php">A propos</a></li>
         </ul>
     </div>
 </div>
@@ -55,56 +54,6 @@ session_start();
 
     </div>
     
-        <form  method="post" class="form-inline" id="urlform" action="../controllers/url_check.php">
-        <input type="text" class="input-large name" name="name" placeholder="Name" required>
-        <input type="url" class="input-large url" name="url" placeholder="http:// "required>
-        <button type="submit" class="btn-large btn-inverse">Generate</button>
-          <img  id="loaderurl" style="display: none; width: 20px; height: 20px; margin-left: 20px;" src="../img/ajax-loader.gif" alt="Loader">
-        
-        </form>
-        <hr>
-
-        <table class="table table-striped table-hover  table-bordered ">
-            <thead class="info">
-                <tr>
-                    <th>Name</th>
-                    <th>Original URL</th>
-                    <th>Shortened URL</th>
-                    <th>Clicks</th>
-                    <th>Date created</th>
-                    <th>Enable/Disable</th>
-                    <th>Remove</th>
-
-                </tr>
-            </thead>
-
-            <tbody>
-                
-                <?php
-                    foreach( $urls as $url){
-                        if($url['active']){
-                            echo '<tr class="success"><td>' . $url["name"] . '</td>';
-                            echo '<td>' . $url["url"] . '</td>';
-                            echo '<td> <a href="/suplink/'.$url['shortUrl'].'">  suplink.com/' . $url['shortUrl'] . ' </a></td>';
-                            echo '<td>' . $url["click"] . '</td>';
-                            echo '<td>' . $url["dateUrl"] . '</td> ';
-                            echo '<td> <a href="../controllers/active.php?id='.$url['id'].'&active='.$url['active'].'">   <i class="icon-ok"> </i>  </a> </td>';
-                            echo '<td> <a href="../controllers/delete.php?id='.$url['id'].'"><i class="icon-trash"> </i>  </a> </td> </tr>';
-                        }else{
-                            echo '<tr class="error"> <td>' . $url["name"] . '</td>';
-                            echo '<td>' . $url["url"] . '</td>';
-                            echo '<td> <a href="">  suplink.com/' . $url['shortUrl'] . ' </a></td>';
-                            //echo '<td> <a href="link.php?k='.$url['id'].'"> suplink  </a> </td> ';
-                            echo '<td>' . $url["click"] . '</td>';
-                            echo '<td>' . $url["dateUrl"] . '</td> ';
-                            echo '<td> <a href="../controllers/active.php?id='.$url['id'].'&active='.$url['active'].'"> <i class="icon-off "> </i> </a></td>';
-                            echo '<td> <a href="../controllers/delete.php?id='.$url['id'].'"> <i class="icon-trash"> </i>  </a> </td> </tr>';
-                        }
-                    }
-                ?>
-
-            </tbody>
-        </table>
 
 </div>
 

@@ -36,6 +36,9 @@ require_once ("PDOUserManager.class.php");
 
 $userManager = new PDOUserManager();
 $userManager->register($email,$password,$confirm);
+$_SESSION['user'] = $email;
 echo "Registration successful";
+header('Location:../view/login.php');
+
 
 ?>
