@@ -38,6 +38,8 @@ if(isset($_SESSION['user'])){
 		</div>	
 
 
+   <a href="fbconnect.php">  <img src="../img/facebook-connect-logo.jpg">  </a>
+
 <!-- (TIP) Google returns the latest version of jquery in the 1 series (from 1.0 to 1.9.9) -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> 
 		

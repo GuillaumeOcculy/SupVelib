@@ -32,11 +32,11 @@ session_start();
         <a class="brand" href="dashboard.php"> SupVelib</a>
         <ul class="nav pull-left">
             <li class="divider-vertical"></li>
-            <li><a href="dashboard.php"> <i class="icon-home icon-white"> </i>  <?php echo $user->getEmail(); ?></a></li>
+            <li><a href="dashboard.php"> <i class="icon-home icon-white"> </i>  /*<?php /*echo $user->getEmail();*/ ?></a></li>
         </ul>
-       
+
         <ul class="nav pull-right">
-            
+
             <li><a href="logout.php">Deconnexion</a></li>
             <li class="divider-vertical"></li>
             <li><a href="about.php">A propos</a></li>
@@ -44,16 +44,12 @@ session_start();
     </div>
 </div>
 <div class="container">
-    <div class="jumbotron">
-        <h1>SupLink</h1>
-        <p class="lead">Another URL shortener</p>
 
-    </div>
     <hr>
     <div class="alert alert-info fade in" style="display : none">
 
     </div>
-    
+
 
 </div>
 
