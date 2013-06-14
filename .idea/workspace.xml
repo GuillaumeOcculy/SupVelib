@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9a88c6d-c142-405b-9804-3468ffa0e09a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/fbconnect.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/infoXml.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/mapVelib.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/util.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/view/velibXml.php" />
       <change type="DELETED" beforePath="C:\wamp\www\SupVelib\controllers\PDOUserManager.php" afterPath="" />
-      <change type="MOVED" beforePath="C:\wamp\www\SupVelib\Main.html" afterPath="$PROJECT_DIR$/view/Main.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/PDOUserManager.class.php" afterPath="$PROJECT_DIR$/controllers/PDOUserManager.class.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/User.class.php" afterPath="$PROJECT_DIR$/model/User.class.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/dashboard.php" afterPath="$PROJECT_DIR$/view/dashboard.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/login.php" afterPath="$PROJECT_DIR$/view/login.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/register_check_form.php" afterPath="$PROJECT_DIR$/controllers/register_check_form.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Projet Web Dev.iws" />
@@ -18,7 +18,7 @@
     <file path="/accessToRessources.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1364305412316" ignored="false" />
     <file path="/Main.html" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1364585874110" ignored="false" />
     <file path="/mapping.js" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1364587139873" ignored="false" />
-    <file path="/Dummy.txt" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371126547925" ignored="false" />
+    <file path="/Dummy.txt" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371168300468" ignored="false" />
     <file path="/index.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1370973953570" ignored="false" />
     <file path="/register.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1370974065604" ignored="false" />
     <file path="/login.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371130648361" ignored="false" />
@@ -26,7 +26,14 @@
     <file path="$PROJECT_DIR$/../Velib2.0/classes/managers/PDOManager.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371130110097" ignored="false" />
     <file path="$PROJECT_DIR$/../Velib2.0/fbconnect.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371130846669" ignored="false" />
     <file path="$PROJECT_DIR$/../Velib2.0/classes/APIFB/src/facebook.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371131131071" ignored="false" />
-    <file path="/PDOUserManager.class.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371131640244" ignored="false" />
+    <file path="/PDOUserManager.class.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371138970206" ignored="false" />
+    <file path="/fbconnect.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371138041426" ignored="false" />
+    <file path="/User.class.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371137901042" ignored="false" />
+    <file path="/dashboard.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371169807964" ignored="false" />
+    <file path="$PROJECT_DIR$/../Velib2.0/classes/managers/PDOUserManager.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371158743507" ignored="false" />
+    <file path="$PROJECT_DIR$/../veliberty/classes/managers/PDOUserManager.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371159041531" ignored="false" />
+    <file path="$PROJECT_DIR$/../veliberty/js/velibCarto.xml" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371169468221" ignored="false" />
+    <file path="/mapVelib.js" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371171911289" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -46,66 +53,79 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="register_check_form.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/register_check_form.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="40" column="2" selection-start="1153" selection-end="1153" vertical-scroll-proportion="-13.846154">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/Main.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="0" selection-start="0" selection-end="1484" vertical-scroll-proportion="-15.307693">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PDOUserManager.class.php" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controllers/PDOUserManager.class.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="100" column="40" selection-start="2836" selection-end="2836" vertical-scroll-proportion="-0.326">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register_check_email.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/register_check_email.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register_check.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/register_check.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="dashboard.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/dashboard.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="46" column="0" selection-start="1220" selection-end="1220" vertical-scroll-proportion="-8.5">
+            <state line="52" column="48" selection-start="1587" selection-end="1587" vertical-scroll-proportion="-12.538462">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="velibXml.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/velibXml.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="0" selection-start="241" selection-end="241" vertical-scroll-proportion="-10.461538">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mapVelib.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/mapVelib.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="90" column="25" selection-start="2187" selection-end="2187" vertical-scroll-proportion="0.25855514">
               <folding>
-                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#0#160#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="miniproject.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/miniproject.js">
+      <file leaf-file-name="infoXml.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/infoXml.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="28" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="util.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/util.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="gmaps.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gmaps.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="map-with-gmaps.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/map-with-gmaps.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mapping.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mapping.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -114,7 +134,7 @@
       <file leaf-file-name="login.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/login.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="45" column="0" selection-start="1519" selection-end="1519" vertical-scroll-proportion="-15.153846">
+            <state line="31" column="28" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -123,18 +143,7 @@
       <file leaf-file-name="fbconnect.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/fbconnect.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="26" selection-start="323" selection-end="323" vertical-scroll-proportion="-9.153846">
-              <folding>
-                <element signature="e#6#164#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/delete.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+            <state line="14" column="0" selection-start="297" selection-end="314" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -158,9 +167,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/test_geocode.html" />
-        <option value="$PROJECT_DIR$/accessToRessources.php" />
-        <option value="$PROJECT_DIR$/Main.html" />
         <option value="$PROJECT_DIR$/mapping.js" />
         <option value="$PROJECT_DIR$/map-with-gmaps.js" />
         <option value="$PROJECT_DIR$/controllers/PDOUserManager.php" />
@@ -170,10 +176,13 @@
         <option value="$PROJECT_DIR$/view/index.php" />
         <option value="$PROJECT_DIR$/core/PDOManager.class.php" />
         <option value="$PROJECT_DIR$/controllers/register_check_form.php" />
-        <option value="$PROJECT_DIR$/view/dashboard.php" />
         <option value="$PROJECT_DIR$/view/login.php" />
-        <option value="$PROJECT_DIR$/view/fbconnect.php" />
         <option value="$PROJECT_DIR$/controllers/PDOUserManager.class.php" />
+        <option value="$PROJECT_DIR$/model/User.class.php" />
+        <option value="$PROJECT_DIR$/view/fbconnect.php" />
+        <option value="$PROJECT_DIR$/view/dashboard.php" />
+        <option value="$PROJECT_DIR$/view/velibXml.php" />
+        <option value="$PROJECT_DIR$/js/mapVelib.js" />
       </list>
     </option>
   </component>
@@ -210,6 +219,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -239,6 +249,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="view" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SupVelib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SupVelib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="model" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -286,18 +310,19 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Velib2.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../veliberty" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\wamp\www\SupVelib\view" />
+      <recent name="C:\wamp\www\SupVelib\js" />
       <recent name="C:\Users\Alexandre\Desktop\B2 - Web Development\projet\Projet Web Dev" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -370,9 +395,10 @@
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21060605" sideWeight="0.6712329" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.21666667" sideWeight="0.67064846" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -382,7 +408,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -451,114 +476,121 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/core/PDOManager.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/PDOManager.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mapping.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="248" column="0" selection-start="9389" selection-end="9389" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!block;n#GetGeolocate#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/core/PDOManager.class.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="41" selection-start="191" selection-end="191" vertical-scroll-proportion="-7.1923075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/login_check.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/miniproject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="28" selection-start="247" selection-end="247" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/delete.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/register_check.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/register_check_email.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/controllers/register_check_form.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="40" column="2" selection-start="1153" selection-end="1153" vertical-scroll-proportion="-13.846154">
+        <state line="36" column="35" selection-start="1065" selection-end="1065" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/Main.html">
+    <entry file="file://$PROJECT_DIR$/model/User.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="0" selection-end="1484" vertical-scroll-proportion="-15.307693">
+        <state line="41" column="2" selection-start="717" selection-end="717" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/dashboard.php">
+    <entry file="file://$PROJECT_DIR$/controllers/PDOUserManager.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="46" column="0" selection-start="1220" selection-end="1220" vertical-scroll-proportion="-8.5">
-          <folding>
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="0" selection-start="1519" selection-end="1519" vertical-scroll-proportion="-15.153846">
+        <state line="112" column="51" selection-start="3317" selection-end="3317" vertical-scroll-proportion="-0.65384614">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/fbconnect.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="26" selection-start="323" selection-end="323" vertical-scroll-proportion="-9.153846">
+        <state line="14" column="0" selection-start="297" selection-end="314" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="28" selection-start="840" selection-end="840" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/cartoParis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="95" column="30" selection-start="19467" selection-end="19467" vertical-scroll-proportion="0.4201521">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/miniproject.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="28" selection-start="247" selection-end="247" vertical-scroll-proportion="0.031539887">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gmaps.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#6#164#0" expanded="true" />
+            <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/PDOUserManager.class.php">
+    <entry file="file://$PROJECT_DIR$/map-with-gmaps.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="100" column="40" selection-start="2836" selection-end="2836" vertical-scroll-proportion="-0.326">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mapping.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="52" column="48" selection-start="1587" selection-end="1587" vertical-scroll-proportion="-12.538462">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/velibCarto.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/velibXml.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="241" selection-end="241" vertical-scroll-proportion="-10.461538">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/util.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/infoXml.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/mapVelib.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="90" column="25" selection-start="2187" selection-end="2187" vertical-scroll-proportion="0.25855514">
+          <folding>
+            <element signature="e#0#160#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>

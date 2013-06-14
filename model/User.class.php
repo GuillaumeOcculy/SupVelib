@@ -1,12 +1,12 @@
-<?php 
+<?php
 /**
-*  @author : Bourguiba Chedli
-*/
-class User 
+ *  @author : Bourguiba Chedli
+ */
+class User
 {
     private $id;
-	private $email;
-	private $password;
+    private $email;
+    private $password;
 
 
     function __construct($id, $email, $password)
@@ -27,16 +27,16 @@ class User
     }
 
     public function getEmail(){
-		return $this->email;
-	}
-	public function getPassword(){
-		return $this->password;
-	}
-	public function setPassword($password){
-		$this->password = $password;
-	}
-	public function setEmail($email){
-		$this->email = $email;
-	}
+        return $this->email;
+    }
+    public function getPassword(){
+        return $this->password;
+    }
+    public function setPassword($password){
+        $this->password = $password;
+    }
+    public function setEmail($email){
+        $this->email = $email;
+    }
 }
- ?>
+?>
