@@ -49,10 +49,14 @@ $urlManager = new PDOUrlManager();
 </div>
 <div class="container">
 
-
+    <form method="get"  >
+        <input type="text" placeholder="Depart" name="depart" id="depart"/>
+        <input type="text" placeholder="Arrivée" name="arrive" id="arrive"/>
+        <input type="button" value="guigui la pute" onclick="calculate();" />
+    </form>
     <div id="carte" style="width:800px; height:500px"></div>
 
-
+    <div id="panel"></div>
 </div>
 
 

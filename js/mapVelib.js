@@ -12,7 +12,8 @@ var free;
 var total;
 var calculate;
 var direction;
-var instruction;
+var panel;
+var infoWindow = new google.maps.InfoWindow;
 
 
 function showMap(){
@@ -26,23 +27,38 @@ function showMap(){
         mapTypeId: google.maps.MapTypeId.ROADMAP
         };
 
-    //constructeur de la carte qui prend en paramêtre le conteneur HTML
-    //dans lequel la carte doit s'afficher et les options
+
      map = new google.maps.Map(document.getElementById("carte"), options);
+
+    direction = new google.maps.DirectionsRenderer({
+        map   : map
+    });
+
+    direction.setPanel(document.getElementById('panel'));
+
     $(window).bind("load", parseXml());
 
-    $("a.ajax").click(function() {
-        $.ajax({
-            type:"GET",
-            url:$(this).attr("href"),
-            success: function(retour){
-                $("#content").empty().append(retour);
-            }
-        });
-        return false;
-    });
+
 }
 
+
+calculate = function(){
+    origin     = document.getElementById('depart').value; // Le point départ
+    destination = document.getElementById('arrive').value; // Le point d'arrivé
+    if(origin && destination){
+        var request = {
+            origin      : origin,
+            destination : destination,
+            travelMode  : google.maps.DirectionsTravelMode.DRIVING // Type de transport
+        }
+        var directionsService = new google.maps.DirectionsService(); // Service de calcul d'itinéraire
+        directionsService.route(request, function(response, status){ // Envoie de la requête pour calculer le parcours
+            if(status == google.maps.DirectionsStatus.OK){
+                direction.setDirections(response); // Trace l'itinéraire sur la carte et les différentes étapes du parcours
+            }
+        });
+    } //http://code.google.com/intl/fr-FR/apis/maps/documentation/javascript/reference.html#DirectionsRequest
+};
 
 function parseXmlInfo(station_number){
     if(window.XMLHttpRequest){
@@ -88,8 +104,11 @@ function parseXml(){
             parseFloat(markers[i].getAttribute("lng")));
 
 
-        var html = "lol";
-
+        var html = '<div id="box-info">' +
+            '<span>Station ' + name + '</span><br/>' +
+            '<p>' + address +'</p> ' +
+            '<a href="addFavorite.php?name='+name+'&&address='+address+'">Ajouter aux favoris <img src="bootstrap/img/favorite.png" width="20px"> </a> ' +
+            '<a href="index.php?addressBike='+address+'">Point de départ <img src="bootstrap/img/marker.png" width="20px"> </a>';
         /**+
          '</div>';**/
 
@@ -105,8 +124,8 @@ function parseXml(){
 
         google.maps.event.addListener(marker, 'click', function() {
             parseXmlInfo(this.number);
-            ib.open(map,this);
-            ib.setContent(this.html+'<p class="number">Vélos disponibles: '+available+'<br/>Emplacements Libres: '+free+'<br/>Nombre d\'emplacement: '+total+'</p>');
+            infoWindow.open(map,this);
+            infoWindow.setContent(this.html+'<p class="number">Vélos disponibles: '+available+'<br/>Emplacements Libres: '+free+'<br/>Nombre d\'emplacement: '+total+'</p>');
             map.setZoom(14);
             map.setCenter(point);
 
