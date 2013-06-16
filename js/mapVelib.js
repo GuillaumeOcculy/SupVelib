@@ -107,10 +107,9 @@ function parseXml(){
         var html = '<div id="box-info">' +
             '<span>Station ' + name + '</span><br/>' +
             '<p>' + address +'</p> ' +
-            '<a href="addFavorite.php?name='+name+'&&address='+address+'">Ajouter aux favoris <img src="bootstrap/img/favorite.png" width="20px"> </a> ' +
-            '<a href="index.php?addressBike='+address+'">Point de départ <img src="bootstrap/img/marker.png" width="20px"> </a>';
-        /**+
-         '</div>';**/
+            '<a href="fav.php?name='+name+'&&address='+address+'">Favoris </a> ' +
+            '<a href="../view/dashboard.php?velibAdresse='+address+'">GPS  </a>';
+
 
 
         var marker = new google.maps.Marker({

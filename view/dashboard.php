@@ -2,6 +2,7 @@
 //define("PATH", "/Users/Chedly/Sites/suplink/");
 require_once("../model/User.class.php");
 require_once("../controllers/PDOUrlManager.class.php");
+require_once("../controllers/PDOFavorisManager.php");
 
 session_start();
 if(isset($_SESSION['user'])){
@@ -14,6 +15,7 @@ if(isset($_SESSION['user'])){
     header("Location:/suplink/view/");
 }
 $urlManager = new PDOUrlManager();
+$favorisManager = new PDOFavorisManager();
 ?>
 <!DOCTYPE HTML>
 <html>
@@ -48,12 +50,22 @@ $urlManager = new PDOUrlManager();
     </div>
 </div>
 <div class="container">
-
+<div id="favoris">
+    <?php  $favorisManager->showFavorite($user->getId());      ?>
+</div>
+    <?php if(!isset($_GET["velibAdresse"])){?>
     <form method="get"  >
         <input type="text" placeholder="Depart" name="depart" id="depart"/>
         <input type="text" placeholder="Arrivée" name="arrive" id="arrive"/>
         <input type="button" value="guigui la pute" onclick="calculate();" />
     </form>
+    <?php }elseif(isset($_GET["velibAdresse"])){?>
+    <form method="get"  >
+        <input type="text" placeholder="Depart" name="depart" id="depart" value="<?php echo htmlspecialchars($_GET["velibAdresse"]); ?>"/>
+        <input type="text" placeholder="Arrivée" name="arrive" id="arrive"/>
+        <input type="button" value="guigui la pute" onclick="calculate();" />
+    </form>
+    <?php } ?>
     <div id="carte" style="width:800px; height:500px"></div>
 
     <div id="panel"></div>
