@@ -11,7 +11,7 @@ require_once("../core/PDOManager.class.php");
 
 class PDOFavorisManager {
 
-    public function addFavorite($name,$user_id,$address){
+    public function createFavoris($name,$user_id,$address){
         $PDOManager = new \PDOManager();
         $pdo = $PDOManager->instantiatePDO();
 
@@ -24,7 +24,17 @@ class PDOFavorisManager {
 
     }
 
-    public function showFavorite($user_id){
+    public function deleteFavoris($urlFavoris){
+        $PDOManager = new PDOManager;
+        $pdo = $PDOManager->instantiatePDO();
+
+        $query = $pdo->prepare('DELETE FROM favoris WHERE id = :id');
+        $query->execute(array(
+            'id' => $urlFavoris
+        ));
+    }
+
+    public function displayFavoris($user_id){
         $PDOManager = new PDOManager;
         $pdo = $PDOManager->instantiatePDO();
 
@@ -40,9 +50,9 @@ class PDOFavorisManager {
 
         foreach($data as $row){
 
-            echo '<tr class="favorite">' . '<td>' . $row["name"] . '</td>';
+            echo '<tr class="favoris">' . '<td>' . $row["name"] . '</td>';
             echo '<td>' . $row["adresse"] . '</td>';
-            echo '<td> <a class="close" href=../controllers/delete_favoris.php?id=' . $row["id"] . '> &times;' . '</td> </a> </tr>';
+            echo '<td> <a class="delete" href=../controllers/delete_favoris.php?id=' . $row["id"] . '> &times;' . '</td> </a> </tr>';
         }
 
         echo '</table>';
@@ -51,14 +61,6 @@ class PDOFavorisManager {
 
     }
 
-    public function delete($urlId){
-        $PDOManager = new PDOManager;
-        $pdo = $PDOManager->instantiatePDO();
 
-        $query = $pdo->prepare('DELETE FROM favoris WHERE id = :id');
-        $query->execute(array(
-            'id' => $urlId
-        ));
-    }
 
 }

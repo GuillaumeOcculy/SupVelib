@@ -14,7 +14,7 @@ require_once ("PDOUserManager.class.php");
         echo "ERROR : passwords must be identitical";
         return false;
     }elseif(filter_var($email,FILTER_VALIDATE_EMAIL) === false){
-        echo " Email is not valid  <button type=\"button\" class=\"close\" data-dismiss=\"alert\">&times;</button>";
+        echo " Email is not valid  <button type=\"button\" class=\"close\" informations-dismiss=\"alert\">&times;</button>";
         return false;
     }else{
         try {

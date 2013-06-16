@@ -26,7 +26,7 @@ $facebook = new Facebook(array(
 // Get User ID
 $user = $facebook->getUser();
 
-// We may or may not have this data based on whether the user is logged in.
+// We may or may not have this informations based on whether the user is logged in.
 //
 // If we have a $user id here, it means we know the user is logged into
 // Facebook, but we don't know if the access token is valid. An access
@@ -49,7 +49,7 @@ if ($user) {
   $loginUrl = $facebook->getLoginUrl();
 }
 
-// This call will always work since we are fetching public data.
+// This call will always work since we are fetching public informations.
 $naitik = $facebook->api('/naitik');
 
 ?>

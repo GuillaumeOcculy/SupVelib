@@ -464,9 +464,9 @@ class PHPSDKTestCase extends PHPUnit_Framework_TestCase {
     $facebook->setAccessToken('this-is-not-really-an-access-token');
     // if we don't set an access token and there's no way to
     // get one, then the FQL query below works beautifully, handing
-    // over Zuck's public data.  But if you specify a bogus access
+    // over Zuck's public informations.  But if you specify a bogus access
     // token as I have right here, then the FQL query should fail.
-    // We could return just Zuck's public data, but that wouldn't
+    // We could return just Zuck's public informations, but that wouldn't
     // advertise the issue that the access token is at worst broken
     // and at best expired.
     try {
@@ -1666,7 +1666,7 @@ class PHPSDKTestCase extends PHPUnit_Framework_TestCase {
     $this->assertEquals($val, $_SESSION[$session_var_name]);
     $this->assertEquals($val, $fb->publicGetPersistentData($key));
 
-    // check the new instance has the same data
+    // check the new instance has the same informations
     $fb = new PersistentFBPublic(array(
       'appId'  => self::APP_ID,
       'secret' => self::SECRET,
@@ -1703,7 +1703,7 @@ class PHPSDKTestCase extends PHPUnit_Framework_TestCase {
     $cookie_name = $fb->publicGetSharedSessionCookieName();
     $_COOKIE[$cookie_name] = substr($_COOKIE[$cookie_name], 1);
 
-    // check the new instance does not have the data
+    // check the new instance does not have the informations
     $fb = new PersistentFBPublic(array(
       'appId'  => self::APP_ID,
       'secret' => self::SECRET,

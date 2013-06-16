@@ -19,16 +19,16 @@ var infoWindow = new google.maps.InfoWindow;
 function showMap(){
 
 
-        var latlng = new google.maps.LatLng(48.8566140	, 2.3522219);
+    var latlng = new google.maps.LatLng(48.8566140	, 2.3522219);
 
-        var options = {
+    var options = {
         center: latlng,
         zoom: 14,
         mapTypeId: google.maps.MapTypeId.ROADMAP
-        };
+    };
 
 
-     map = new google.maps.Map(document.getElementById("carte"), options);
+    map = new google.maps.Map(document.getElementById("carte"), options);
 
     direction = new google.maps.DirectionsRenderer({
         map   : map

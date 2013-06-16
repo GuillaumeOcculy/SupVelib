@@ -181,7 +181,7 @@ abstract class BaseFacebook
   protected $user;
 
   /**
-   * The data from the signed_request token.
+   * The informations from the signed_request token.
    */
   protected $signedRequest;
 
@@ -455,7 +455,7 @@ abstract class BaseFacebook
       // signed request states there's no access token, so anything
       // stored should be cleared.
       $this->clearAllPersistentData();
-      return false; // respect the signed request's data, even
+      return false; // respect the signed request's informations, even
                     // if there's an authorization code or something else
     }
 
@@ -852,7 +852,7 @@ abstract class BaseFacebook
    *
    * @param string $path The path (required)
    * @param string $method The http method (default 'GET')
-   * @param array $params The query/post data
+   * @param array $params The query/post informations
    *
    * @return mixed The decoded response object
    * @throws FacebookApiException
@@ -889,7 +889,7 @@ abstract class BaseFacebook
    * Make a OAuth Request.
    *
    * @param string $url The path (required)
-   * @param array $params The query/post data
+   * @param array $params The query/post informations
    *
    * @return string The decoded response object
    * @throws FacebookApiException
@@ -997,7 +997,7 @@ abstract class BaseFacebook
   protected function parseSignedRequest($signed_request) {
     list($encoded_sig, $payload) = explode('.', $signed_request, 2);
 
-    // decode the data
+    // decode the informations
     $sig = self::base64UrlDecode($encoded_sig);
     $data = json_decode(self::base64UrlDecode($payload), true);
 
@@ -1019,9 +1019,9 @@ abstract class BaseFacebook
   }
 
   /**
-   * Makes a signed_request blob using the given data.
+   * Makes a signed_request blob using the given informations.
    *
-   * @param array The data array.
+   * @param array The informations array.
    * @return string The signed request.
    */
   protected function makeSignedRequest($data) {
@@ -1415,9 +1415,9 @@ abstract class BaseFacebook
   abstract protected function setPersistentData($key, $value);
 
   /**
-   * Get the data for $key, persisted by BaseFacebook::setPersistentData()
+   * Get the informations for $key, persisted by BaseFacebook::setPersistentData()
    *
-   * @param string $key The key of the data to retrieve
+   * @param string $key The key of the informations to retrieve
    * @param boolean $default The default value to return if $key is not found
    *
    * @return mixed
@@ -1425,7 +1425,7 @@ abstract class BaseFacebook
   abstract protected function getPersistentData($key, $default = false);
 
   /**
-   * Clear the data with $key from the persistent storage
+   * Clear the informations with $key from the persistent storage
    *
    * @param string $key
    * @return void
@@ -1433,7 +1433,7 @@ abstract class BaseFacebook
   abstract protected function clearPersistentData($key);
 
   /**
-   * Clear all data from the persistent storage
+   * Clear all informations from the persistent storage
    *
    * @return void
    */

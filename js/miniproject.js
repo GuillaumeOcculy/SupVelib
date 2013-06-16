@@ -65,7 +65,7 @@ $("#signup").submit(function(){
             success: function(msg){
                 $(".alert").html("");
 
-                if(msg== " URL is not valid  <button type=\"button\" class=\"close\" data-dismiss=\"alert\">&times;</button>"){
+                if(msg== " URL is not valid  <button type=\"button\" class=\"close\" informations-dismiss=\"alert\">&times;</button>"){
 
 
 

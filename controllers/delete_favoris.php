@@ -15,7 +15,7 @@ if(isset($_GET["id"])&&isset($_SESSION["user"])){
     $favorisId = $_GET["id"];
     $favorisManager = new PDOFavorisManager();
 
-    $favorisManager->delete($favorisId);
+    $favorisManager->deleteFavoris($favorisId);
     header("location: ../view/dashboard.php");
 }
 else{

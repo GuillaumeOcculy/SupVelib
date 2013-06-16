@@ -17,13 +17,14 @@ if(!isset($_SESSION["user"])){
     header("location: ../view/login.php");
 }
 else{
-    $name = $_GET["name"];
+
     $address = $_GET["address"];
     $user_id = $_SESSION["user"]->getId();
+    $name = $_GET["name"];
 
-    $favoriteManager = new PDOFavorisManager();
+    $favorisManager = new PDOFavorisManager();
 
-    $favoriteManager->addFavorite($name,$user_id,$address);
+    $favorisManager->createFavoris($name,$user_id,$address);
 
     header("location: ../view/dashboard.php");
 }

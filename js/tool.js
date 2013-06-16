@@ -54,7 +54,7 @@ function downloadUrl(url, callback) {
 
 /**
  * Parses the given XML string and returns the parsed document in a
- * DOM data structure. This function will return an empty DOM node if
+ * DOM informations structure. This function will return an empty DOM node if
  * XML parsing is not supported in this browser.
  * @param {string} str XML string.
  * @return {Element|Document} DOM.

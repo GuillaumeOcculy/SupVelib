@@ -48,21 +48,21 @@ $favorisManager = new PDOFavorisManager();
     </div>
 </div>
 <div class="container">
-<div id="favoris">
-    <?php  $favorisManager->showFavorite($user->getId());      ?>
-</div>
+    <div id="favoris">
+        <?php  $favorisManager->displayFavoris($user->getId());      ?>
+    </div>
     <?php if(!isset($_GET["velibAdresse"])){?>
-    <form method="get"  >
-        <input type="text" placeholder="Depart" name="depart" id="depart"/>
-        <input type="text" placeholder="Arrivée" name="arrive" id="arrive"/>
-        <input type="button" value="Valider" onclick="calculate();" />
-    </form>
+        <form method="get"  >
+            <input type="text" placeholder="Depart" name="depart" id="depart"/>
+            <input type="text" placeholder="Arrivée" name="arrive" id="arrive"/>
+            <input type="button" value="Valider" onclick="calculate();" />
+        </form>
     <?php }elseif(isset($_GET["velibAdresse"])){?>
-    <form method="get"  >
-        <input type="text" placeholder="Depart" name="depart" id="depart" value="<?php echo htmlspecialchars($_GET["velibAdresse"]); ?>"/>
-        <input type="text" placeholder="Arrivée" name="arrive" id="arrive"/>
-        <input type="button" value="guigui la pute" onclick="calculate();" />
-    </form>
+        <form method="get"  >
+            <input type="text" placeholder="Depart" name="depart" id="depart" value="<?php echo htmlspecialchars($_GET["velibAdresse"]); ?>"/>
+            <input type="text" placeholder="Arrivée" name="arrive" id="arrive"/>
+            <input type="button" value="guigui la pute" onclick="calculate();" />
+        </form>
     <?php } ?>
     <div id="carte" style="width:800px; height:500px"></div>
 

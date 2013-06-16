@@ -67,7 +67,7 @@ class Facebook extends BaseFacebook
         $this->sharedSessionID = $data['id'];
         return;
       }
-      // ignoring potentially unreachable data
+      // ignoring potentially unreachable informations
     }
     // evil/corrupt/missing case
     $base_domain = $this->getBaseDomain();
