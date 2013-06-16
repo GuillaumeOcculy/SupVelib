@@ -29,8 +29,8 @@ session_start();
 <div id="wrap">
     <div class="container">
         <div class="jumbotron">
-            <h1 style="font-size: 100px;line-height: 1;">SupLink</h1>
-            <p class="lead" style="font-size: 24px; line-height: 1.25;">Another URL shortener</p>
+            <h1 style="font-size: 100px;line-height: 1;">SupVelib</h1>
+            <p class="lead" style="font-size: 24px; line-height: 1.25;">Vous aide à trouver la station de Velib la plus proche. Tout simplement.</p>
             <a class="btn btn-large btn-success" href="register.php">Sign up today</a>
         </div>
         <hr>
@@ -40,7 +40,7 @@ session_start();
 </div>
 <div id="footer">
     <div class="container">
-        <p class=" muted"> Suplink 2013 - SUPINFO International university</p>
+        <p class=" muted"> SupVelib 2013 - SUPINFO International university</p>
     </div>
 </div>
 <!-- (TIP) Google returns the latest version of jquery in the 1 series (from 1.0 to 1.9.9) -->

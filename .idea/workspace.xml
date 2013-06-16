@@ -2,58 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a9a88c6d-c142-405b-9804-3468ffa0e09a" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\wamp\www\SupVelib\controllers\active.php" afterPath="" />
-      <change type="DELETED" beforePath="C:\wamp\www\SupVelib\controllers\delete.php" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/PDOFavorisManager.php" afterPath="$PROJECT_DIR$/controllers/PDOFavorisManager.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FacebookAPI/src/base_facebook.php" afterPath="$PROJECT_DIR$/FacebookAPI/src/base_facebook.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap.js" afterPath="$PROJECT_DIR$/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/bootstrap.min.js" afterPath="$PROJECT_DIR$/js/bootstrap.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/create_velib_map.php" afterPath="$PROJECT_DIR$/view/create_velib_map.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/dashboard.php" afterPath="$PROJECT_DIR$/view/dashboard.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/delete_favoris.php" afterPath="$PROJECT_DIR$/controllers/delete_favoris.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FacebookAPI/examples/example.php" afterPath="$PROJECT_DIR$/FacebookAPI/examples/example.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FacebookAPI/src/facebook.php" afterPath="$PROJECT_DIR$/FacebookAPI/src/facebook.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/favoris.php" afterPath="$PROJECT_DIR$/view/favoris.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/info_velib.php" afterPath="$PROJECT_DIR$/view/info_velib.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/mapVelib.js" afterPath="$PROJECT_DIR$/js/mapVelib.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/miniproject.js" afterPath="$PROJECT_DIR$/js/miniproject.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/register_check_form.php" afterPath="$PROJECT_DIR$/controllers/register_check_form.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FacebookAPI/tests/tests.php" afterPath="$PROJECT_DIR$/FacebookAPI/tests/tests.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/tool.js" afterPath="$PROJECT_DIR$/js/tool.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/PDOFavorisManager.php" afterPath="$PROJECT_DIR$/controllers/PDOFavorisManager.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/delete_favoris.php" afterPath="$PROJECT_DIR$/controllers/delete_favoris.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/controllers/login_check.php" afterPath="$PROJECT_DIR$/controllers/login_check.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/model/Favoris.php" afterPath="$PROJECT_DIR$/model/Favoris.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/about.php" afterPath="$PROJECT_DIR$/view/about.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/dashboard.php" afterPath="$PROJECT_DIR$/view/dashboard.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/facebook_connect.php" afterPath="$PROJECT_DIR$/view/facebook_connect.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/view/favoris.php" afterPath="$PROJECT_DIR$/view/favoris.php" />
     </list>
     <ignored path="Projet Web Dev.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/map-with-gmaps.js" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1364307725231" ignored="false" />
-    <file path="/accessToRessources.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1364305412316" ignored="false" />
-    <file path="/Main.html" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1364585874110" ignored="false" />
-    <file path="/mapping.js" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1364587139873" ignored="false" />
-    <file path="/Dummy.txt" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371401710110" ignored="false" />
-    <file path="/index.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1370973953570" ignored="false" />
-    <file path="/register.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1370974065604" ignored="false" />
-    <file path="/login.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371130648361" ignored="false" />
-    <file path="/register_check_form.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1370975030976" ignored="false" />
-    <file path="$PROJECT_DIR$/../Velib2.0/classes/managers/PDOManager.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371130110097" ignored="false" />
-    <file path="$PROJECT_DIR$/../Velib2.0/fbconnect.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371130846669" ignored="false" />
-    <file path="$PROJECT_DIR$/../Velib2.0/classes/APIFB/src/facebook.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371131131071" ignored="false" />
-    <file path="/PDOUserManager.class.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371138970206" ignored="false" />
-    <file path="/fbconnect.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371138041426" ignored="false" />
-    <file path="/User.class.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371137901042" ignored="false" />
-    <file path="/dashboard.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371412756612" ignored="false" />
-    <file path="$PROJECT_DIR$/../Velib2.0/classes/managers/PDOUserManager.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371158743507" ignored="false" />
-    <file path="$PROJECT_DIR$/../veliberty/classes/managers/PDOUserManager.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371159041531" ignored="false" />
-    <file path="$PROJECT_DIR$/../veliberty/js/velibCarto.xml" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371169468221" ignored="false" />
-    <file path="/mapVelib.js" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371413752750" ignored="false" />
-    <file path="$PROJECT_DIR$/../veliberty/js/velib2.js" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371174300241" ignored="false" />
-    <file path="/velib2.js" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371173392425" ignored="false" />
-    <file path="/Favoris.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371402543192" ignored="false" />
-    <file path="/fav.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371403692873" ignored="false" />
-    <file path="/a.dummy" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371415030846" ignored="false" />
-    <file path="/PDOFavorisManager.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371406368584" ignored="false" />
-    <file path="/deletefav.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371406123915" ignored="false" />
-    <file path="$PROJECT_DIR$/../veliberty/deleteFavorite.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371406524911" ignored="false" />
-    <file path="/delete.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371412302177" ignored="false" />
     <file path="/delete_favoris.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371412390927" ignored="false" />
+    <file path="/delete.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371412302177" ignored="false" />
+    <file path="$PROJECT_DIR$/../veliberty/deleteFavorite.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371406524911" ignored="false" />
+    <file path="/deletefav.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371406123915" ignored="false" />
+    <file path="/PDOFavorisManager.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371406368584" ignored="false" />
+    <file path="/a.dummy" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371415030846" ignored="false" />
+    <file path="/fav.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371403692873" ignored="false" />
+    <file path="/Favoris.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371402543192" ignored="false" />
+    <file path="/velib2.js" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371173392425" ignored="false" />
+    <file path="$PROJECT_DIR$/../veliberty/js/velib2.js" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371174300241" ignored="false" />
+    <file path="/mapVelib.js" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371413752750" ignored="false" />
+    <file path="$PROJECT_DIR$/../veliberty/js/velibCarto.xml" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371169468221" ignored="false" />
+    <file path="$PROJECT_DIR$/../veliberty/classes/managers/PDOUserManager.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371159041531" ignored="false" />
+    <file path="$PROJECT_DIR$/../Velib2.0/classes/managers/PDOUserManager.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371158743507" ignored="false" />
+    <file path="/dashboard.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371412756612" ignored="false" />
+    <file path="/User.class.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371137901042" ignored="false" />
+    <file path="/fbconnect.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371138041426" ignored="false" />
+    <file path="/PDOUserManager.class.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371138970206" ignored="false" />
+    <file path="$PROJECT_DIR$/../Velib2.0/classes/APIFB/src/facebook.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371131131071" ignored="false" />
+    <file path="$PROJECT_DIR$/../Velib2.0/fbconnect.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371130846669" ignored="false" />
+    <file path="$PROJECT_DIR$/../Velib2.0/classes/managers/PDOManager.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371130110097" ignored="false" />
+    <file path="/register_check_form.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1370975030976" ignored="false" />
+    <file path="/login.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371130648361" ignored="false" />
+    <file path="/register.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1370974065604" ignored="false" />
+    <file path="/index.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1370973953570" ignored="false" />
+    <file path="/Dummy.txt" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1371401710110" ignored="false" />
+    <file path="/mapping.js" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1364587139873" ignored="false" />
+    <file path="/Main.html" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1364585874110" ignored="false" />
+    <file path="/accessToRessources.php" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1364305412316" ignored="false" />
+    <file path="/map-with-gmaps.js" changelist="a9a88c6d-c142-405b-9804-3468ffa0e09a" time="1364307725231" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,28 +64,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="dashboard.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/dashboard.php">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="79" column="7" selection-start="2806" selection-end="2806" vertical-scroll-proportion="-9.807693">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="create_velib_map.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/create_velib_map.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="2" selection-start="211" selection-end="211" vertical-scroll-proportion="-9.807693">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="delete_favoris.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/delete_favoris.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="35" selection-start="442" selection-end="442" vertical-scroll-proportion="-7.1923075">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="3.875">
               <folding />
             </state>
           </provider>
@@ -103,10 +76,44 @@
       <file leaf-file-name="favoris.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/view/favoris.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="26" selection-start="466" selection-end="466" vertical-scroll-proportion="-6.5384617">
-              <folding>
-                <element signature="e#6#164#0" expanded="true" />
-              </folding>
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="User.class.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/User.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Favoris.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/Favoris.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="82" column="1" selection-start="1190" selection-end="1190" vertical-scroll-proportion="-22.375">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="facebook_connect.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/facebook_connect.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.625">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dashboard.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/dashboard.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="61" column="45" selection-start="2113" selection-end="2113" vertical-scroll-proportion="-5.42">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -114,52 +121,32 @@
       <file leaf-file-name="mapVelib.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/mapVelib.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="134" column="1" selection-start="3778" selection-end="3778" vertical-scroll-proportion="0.0">
+            <state line="12" column="4" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="miniproject.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/miniproject.js">
+      <file leaf-file-name="PDOManager.class.php" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/core/PDOManager.class.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="10" column="29" selection-start="153" selection-end="153" vertical-scroll-proportion="0.24958402">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tool.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/tool.js">
+      <file leaf-file-name="create_velib_map.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/create_velib_map.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PDOFavorisManager.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/PDOFavorisManager.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="36" selection-start="1427" selection-end="1427" vertical-scroll-proportion="-2.4615386">
-              <folding>
-                <element signature="e#6#164#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="info_velib.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/info_velib.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="11" selection-start="318" selection-end="318" vertical-scroll-proportion="-3.7692308">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="register.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/view/register.php">
+      <file leaf-file-name="about.php" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/view/about.php">
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
               <folding />
@@ -177,39 +164,33 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitLogSettings">
-    <option name="myDateState">
-      <MyDateState />
-    </option>
-  </component>
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/view/login.php" />
-        <option value="$PROJECT_DIR$/controllers/PDOUserManager.class.php" />
-        <option value="$PROJECT_DIR$/model/User.class.php" />
-        <option value="$PROJECT_DIR$/view/fbconnect.php" />
         <option value="$PROJECT_DIR$/view/velibXml.php" />
-        <option value="$PROJECT_DIR$/model/Favoris.php" />
         <option value="$PROJECT_DIR$/controllers/deletefav.php" />
         <option value="$PROJECT_DIR$/view/fav.php" />
         <option value="$PROJECT_DIR$/controllers/delete.php" />
-        <option value="$PROJECT_DIR$/controllers/delete_favoris.php" />
         <option value="$PROJECT_DIR$/js/mapVelib.js" />
         <option value="$PROJECT_DIR$/view/create_velib_map.php" />
-        <option value="$PROJECT_DIR$/view/dashboard.php" />
-        <option value="$PROJECT_DIR$/controllers/PDOFavorisManager.php" />
-        <option value="$PROJECT_DIR$/view/favoris.php" />
         <option value="$PROJECT_DIR$/view/info_velib.php" />
+        <option value="$PROJECT_DIR$/view/about.php" />
+        <option value="$PROJECT_DIR$/view/favoris.php" />
+        <option value="$PROJECT_DIR$/controllers/PDOFavorisManager.php" />
+        <option value="$PROJECT_DIR$/controllers/login_check.php" />
+        <option value="$PROJECT_DIR$/controllers/delete_favoris.php" />
+        <option value="$PROJECT_DIR$/model/Favoris.php" />
+        <option value="$PROJECT_DIR$/view/facebook_connect.php" />
+        <option value="$PROJECT_DIR$/view/dashboard.php" />
+        <option value="$PROJECT_DIR$/core/PDOManager.class.php" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1" />
-    <option name="y" value="1" />
-    <option name="width" value="1364" />
-    <option name="height" value="726" />
+    <option name="y" value="22" />
+    <option name="width" value="1440" />
+    <option name="height" value="821" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -279,35 +260,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="model" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SupVelib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SupVelib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SupVelib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="SupVelib" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="controllers" />
+              <option name="myItemId" value="core" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -394,15 +347,15 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="1" y="1" width="1364" height="726" extended-state="6" />
+    <frame x="0" y="22" width="1440" height="821" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32935154" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33978873" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33857143" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22273426" sideWeight="0.66021127" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22596844" sideWeight="0.6614286" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -443,20 +396,13 @@
     <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
     <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
     <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
-    <option name="SHORT_DIFF_HORIZONTALLY" value="true" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
     <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
     <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
     <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
-    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
-    <option name="LIMIT_HISTORY" value="true" />
-    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
-    <option name="UPDATE_FILTER_SCOPE_NAME" />
-    <option name="USE_COMMIT_MESSAGE_MARGIN" value="false" />
-    <option name="COMMIT_MESSAGE_MARGIN_SIZE" value="72" />
-    <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
     <option name="LAST_COMMIT_MESSAGE" />
@@ -470,7 +416,6 @@
     <option name="ACTIVE_VCS_NAME" />
     <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
     <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
-    <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
@@ -480,112 +425,116 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/img/glyphicons-halflings.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/glyphicons-halflings-white.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/img/ajax-loader.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/index.php">
+    <entry file="file://$PROJECT_DIR$/controllers/register_check_email.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="19.076923">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/controllers/register_check.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="e#6#8#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="15.75">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/login.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="7.625">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/velib_map.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/register.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/PDOFavorisManager.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="36" selection-start="1427" selection-end="1427" vertical-scroll-proportion="-2.4615386">
-          <folding>
-            <element signature="e#6#164#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/controllers/delete_favoris.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="35" selection-start="442" selection-end="442" vertical-scroll-proportion="-7.1923075">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/view/favoris.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="26" selection-start="466" selection-end="466" vertical-scroll-proportion="-6.5384617">
-          <folding>
-            <element signature="e#6#164#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/info_velib.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="11" selection-start="318" selection-end="318" vertical-scroll-proportion="-3.7692308">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="3.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/User.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/Favoris.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="82" column="1" selection-start="1190" selection-end="1190" vertical-scroll-proportion="-22.375">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/facebook_connect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="0" selection-start="6" selection-end="6" vertical-scroll-proportion="-0.625">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/view/create_velib_map.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="2" selection-start="211" selection-end="211" vertical-scroll-proportion="-9.807693">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/view/dashboard.php">
+    <entry file="file://$PROJECT_DIR$/view/about.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="79" column="7" selection-start="2806" selection-end="2806" vertical-scroll-proportion="-9.807693">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view/favoris.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/mapVelib.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="134" column="1" selection-start="3778" selection-end="3778" vertical-scroll-proportion="0.0">
+        <state line="12" column="4" selection-start="211" selection-end="211" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/miniproject.js">
+    <entry file="file://$PROJECT_DIR$/view/dashboard.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="61" column="45" selection-start="2113" selection-end="2113" vertical-scroll-proportion="-5.42">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/tool.js">
+    <entry file="file://$PROJECT_DIR$/core/PDOManager.class.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+        <state line="10" column="29" selection-start="153" selection-end="153" vertical-scroll-proportion="0.24958402">
           <folding />
         </state>
       </provider>

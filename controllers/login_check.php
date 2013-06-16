@@ -3,13 +3,6 @@
 require_once ("PDOUserManager.class.php");
 
 
-/**
- * Created by JetBrains PhpStorm.
- * User: Chedly
- * Date: 26/02/13
- * Time: 18:34
- * To change this template use File | Settings | File Templates.
- */
 
 if(isset($_POST["email"]) && isset($_POST["password"]) ){
     $email = $_POST['email'];

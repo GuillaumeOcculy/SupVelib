@@ -1,5 +1,5 @@
 <?php
-//define("PATH", "/Users/Chedly/Sites/suplink/");
+
 require_once("../model/User.class.php");
 require_once("../controllers/PDOFavorisManager.php");
 
@@ -21,8 +21,6 @@ $favorisManager = new PDOFavorisManager();
     <meta charset="utf-8" />
     <link rel="stylesheet" type="text/css" href="/suplink/css/bootstrap.css" />
     <link rel="stylesheet" type="text/css" href="/suplink/css/miniproject.css" />
-    <!-- Elément Google Maps indiquant que la carte doit être affiché en plein écran et
-    qu'elle ne peut pas être redimensionnée par l'utilisateur -->
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
     <title>Dashboard</title>
     <script type="text/javascript" src="http://maps.google.com/maps/api/js?sensor=false"></script>
@@ -61,7 +59,7 @@ $favorisManager = new PDOFavorisManager();
         <form method="get"  >
             <input type="text" placeholder="Depart" name="depart" id="depart" value="<?php echo htmlspecialchars($_GET["velibAdresse"]); ?>"/>
             <input type="text" placeholder="Arrivée" name="arrive" id="arrive"/>
-            <input type="button" value="guigui la pute" onclick="calculate();" />
+            <input type="button" value="Valider" onclick="calculate();" />
         </form>
     <?php } ?>
     <div id="carte" style="width:800px; height:500px"></div>
