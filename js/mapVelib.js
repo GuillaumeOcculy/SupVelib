@@ -36,7 +36,7 @@ function showMap(){
 
     direction.setPanel(document.getElementById('panel'));
 
-    $(window).bind("load", parseXml());
+    $(window).bind("load", leachXml());
 
 
 }
@@ -68,7 +68,7 @@ function parseXmlInfo(station_number){
         xmlhttp = new ActiveXObject("Microsoft.XMLHTTP");
     }
 
-    xmlhttp.open("GET","infoXml.php?station_number="+station_number,false);
+    xmlhttp.open("GET","info_velib.php?station_number="+station_number,false);
     xmlhttp.send();
     var station = JSON.parse(xmlhttp.responseText);
 
@@ -78,7 +78,7 @@ function parseXmlInfo(station_number){
 
 }
 
-function parseXml(){
+function leachXml(){
     if(window.XMLHttpRequest){
         xmlhttp = new XMLHttpRequest();
     }
@@ -87,7 +87,7 @@ function parseXml(){
     }
 
 
-    xmlhttp.open("GET","velibCarto.xml",false);
+    xmlhttp.open("GET","velib_map.xml",false);
     xmlhttp.send();
     var xmlVelib = xmlhttp.responseXML;
 
@@ -107,7 +107,7 @@ function parseXml(){
         var html = '<div id="box-info">' +
             '<span>Station ' + name + '</span><br/>' +
             '<p>' + address +'</p> ' +
-            '<a href="fav.php?name='+name+'&&address='+address+'">Favoris </a> ' +
+            '<a href="favoris.php?name='+name+'&&address='+address+'">Favoris </a> ' +
             '<a href="../view/dashboard.php?velibAdresse='+address+'">GPS  </a>';
 
 
@@ -132,10 +132,4 @@ function parseXml(){
 
     }
 
-
-}
-
-function loadvelibXml(){
-    $.get('../view/velibXml.php');
-    return false;
 }

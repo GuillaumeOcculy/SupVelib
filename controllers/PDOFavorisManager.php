@@ -42,7 +42,7 @@ class PDOFavorisManager {
 
             echo '<tr class="favorite">' . '<td>' . $row["name"] . '</td>';
             echo '<td>' . $row["adresse"] . '</td>';
-            echo '<td> <a class="close" href=../controllers/deletefav.php?id=' . $row["id"] . '> &times;' . '</td> </a> </tr>';
+            echo '<td> <a class="close" href=../controllers/delete_favoris.php?id=' . $row["id"] . '> &times;' . '</td> </a> </tr>';
         }
 
         echo '</table>';

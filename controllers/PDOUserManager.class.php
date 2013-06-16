@@ -1,7 +1,7 @@
 <?php
 require_once("../core/PDOManager.class.php");
 require_once("../model/User.class.php");
-require_once("../APIFB/src/facebook.php");
+require_once("../FacebookAPI/src/facebook.php");
 
 session_start();
 

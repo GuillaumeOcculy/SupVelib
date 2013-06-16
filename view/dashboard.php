@@ -1,7 +1,6 @@
 <?php
 //define("PATH", "/Users/Chedly/Sites/suplink/");
 require_once("../model/User.class.php");
-require_once("../controllers/PDOUrlManager.class.php");
 require_once("../controllers/PDOFavorisManager.php");
 
 session_start();
@@ -12,9 +11,8 @@ if(isset($_SESSION['user'])){
 
 
 }else{
-    header("Location:/suplink/view/");
+    header("Location:..");
 }
-$urlManager = new PDOUrlManager();
 $favorisManager = new PDOFavorisManager();
 ?>
 <!DOCTYPE HTML>
@@ -57,7 +55,7 @@ $favorisManager = new PDOFavorisManager();
     <form method="get"  >
         <input type="text" placeholder="Depart" name="depart" id="depart"/>
         <input type="text" placeholder="Arrivée" name="arrive" id="arrive"/>
-        <input type="button" value="guigui la pute" onclick="calculate();" />
+        <input type="button" value="Valider" onclick="calculate();" />
     </form>
     <?php }elseif(isset($_GET["velibAdresse"])){?>
     <form method="get"  >

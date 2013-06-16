@@ -2,7 +2,7 @@
 
 
     $url = "https://abo-paris.cyclocity.fr/service/carto";
-    $path = "velibCarto.xml";
+    $path = "velib_map.xml";
 
     $content = file_get_contents($url);
 
